@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.container:hover{
+    background-color: #2e374a;
+}
+
+.container:hover, .active {
+    background-color: #2e374a;
+}
